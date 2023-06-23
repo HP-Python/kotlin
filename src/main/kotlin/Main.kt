@@ -1,6 +1,7 @@
 fun main() {
     val dog: Animal = Animal("Barby")
-    print(dog.Name)
+    println(dog.Name)
+    dog.bark()
 }
 
 fun isEven(x: Int): Boolean {
